@@ -13,7 +13,7 @@ target_compile_options(physics_app PRIVATE -Wall -Wextra -Os -g -flto)
 target_link_libraries(physics_app Gint::Gint)
 
 generate_g3a(TARGET physics_app OUTPUT "Physics_Revision.g3a"
-    NAME "Physics Revision"
+    NAME "Physics"
     ICONS icon-uns.png icon-sel.png
 )
 
@@ -22,6 +22,6 @@ target_compile_options(boot_test PRIVATE -Wall -Wextra -Os -g -flto)
 target_link_libraries(boot_test Gint::Gint)
 
 generate_g3a(TARGET boot_test OUTPUT "Physics_Boot_Test.g3a"
-    NAME "Physics Boot Test"
+    NAME "Boot"
     ICONS icon-uns.png icon-sel.png
 )
