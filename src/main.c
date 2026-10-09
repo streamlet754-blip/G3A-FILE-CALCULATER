@@ -191,7 +191,7 @@ void run_equation_solver(int formula_type) {
                         sprintf(buf, "W = F * d = %.2f N * %.2f m", v2, v3);
                         dtext(10, 50, C_BLACK, buf);
                         sprintf(buf, "RESULT: Work Done = %.2f Joules", res);
-                        dtext(10, 80, C_DARK, buf);
+                        dtext(10, 80, C_BLACK, buf);
                     }
                 }
                 else if(formula_type == 2) {
@@ -201,7 +201,7 @@ void run_equation_solver(int formula_type) {
                         sprintf(buf, "GPE = m * g * h = %.1f * %.1f * %.1f", v2, g, v4);
                         dtext(10, 50, C_BLACK, buf);
                         sprintf(buf, "RESULT: GPE = %.2f Joules", res);
-                        dtext(10, 80, C_DARK, buf);
+                        dtext(10, 80, C_BLACK, buf);
                     }
                 }
                 else if(formula_type == 3) {
@@ -210,7 +210,7 @@ void run_equation_solver(int formula_type) {
                         sprintf(buf, "KE = 0.5 * %.1f * (%.1f)^2", v2, v3);
                         dtext(10, 50, C_BLACK, buf);
                         sprintf(buf, "RESULT: Kinetic Energy = %.2f Joules", res);
-                        dtext(10, 80, C_DARK, buf);
+                        dtext(10, 80, C_BLACK, buf);
                     }
                 }
 
@@ -251,8 +251,8 @@ void show_notes() {
     while(1) {
         draw_header("IGCSE PHYSICS TOPIC 4 NOTES");
 
-        char buffer[1500];
-        strcpy(buffer, notes_pages[page]);
+        char buffer[4096];
+        snprintf(buffer, sizeof(buffer), "%s", notes_pages[page]);
         char *line = strtok(buffer, "\n");
         int y = 32;
 
