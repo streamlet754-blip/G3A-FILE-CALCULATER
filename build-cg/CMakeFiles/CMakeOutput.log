@@ -1,0 +1,155 @@
+The target system is: Generic - 1 - sh
+The host system is: Linux - 6.8.0-1064-azure - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /root/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/src/build-cg/CMakeFiles/3.25.1/CompilerIdC/CMakeCCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /src/build-cg/CMakeFiles/CMakeScratch/TryCompile-a16iEM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea432/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea432.dir/build.make CMakeFiles/cmTC_ea432.dir/build
+gmake[1]: Entering directory '/src/build-cg/CMakeFiles/CMakeScratch/TryCompile-a16iEM'
+Building C object CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj
+/root/.local/bin/sh-elf-gcc -DTARGET_FXCG50  -v -m4-nofpu -mb -ffreestanding -nostdlib -Wa,--dsp -o CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_AS_OPTIONS='--dsp'
+COLLECT_GCC=/root/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-14.1.0/configure --prefix=/root/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 14.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FXCG50' '-v' '-m4-nofpu' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ea432.dir/'
+ /root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/cc1 -quiet -v -imultilib m4-nofpu -D TARGET_FXCG50 /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ea432.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m4-nofpu -mb -version -ffreestanding -o /tmp/ccEi8kP3.s
+GNU C17 (GCC) version 14.1.0 (sh3eb-elf)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include
+ /root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed
+ /root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include
+End of search list.
+Compiler executable checksum: 6b364ee5cc4f6e176a5c21199d042b2f
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FXCG50' '-v' '-m4-nofpu' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ea432.dir/'
+ /root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/as -big --isa=sh4a-nofpu --dsp -o CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj /tmp/ccEi8kP3.s
+COMPILER_PATH=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/m4-nofpu/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/m4-nofpu/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-D' 'TARGET_FXCG50' '-v' '-m4-nofpu' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_ea432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea432.dir/link.txt --verbose=1
+/root/.local/bin/sh-elf-gcc  -v -nostdlib -Wl,--no-warn-rwx-segments CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj -o cmTC_ea432  -lgcc 
+Using built-in specs.
+COLLECT_GCC=/root/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-14.1.0/configure --prefix=/root/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 14.1.0 (GCC) 
+COMPILER_PATH=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_ea432' '-dumpdir' 'cmTC_ea432.'
+ /root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2 -plugin /root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so -plugin-opt=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYoZz4F.res -m shelf -o cmTC_ea432 -L/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0 -L/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj -lgcc
+/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/ld: warning: cannot find entry symbol start; defaulting to 00001000
+COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_ea432' '-dumpdir' 'cmTC_ea432.'
+gmake[1]: Leaving directory '/src/build-cg/CMakeFiles/CMakeScratch/TryCompile-a16iEM'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+    add: [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+    add: [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include]
+  end of search list found
+  collapse include dir [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include] ==> [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+  collapse include dir [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed] ==> [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+  collapse include dir [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include] ==> [/root/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+  implicit include dirs: [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include;/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed;/root/.local/share/fxsdk/sysroot/sh3eb-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(sh-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /src/build-cg/CMakeFiles/CMakeScratch/TryCompile-a16iEM]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea432/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea432.dir/build.make CMakeFiles/cmTC_ea432.dir/build]
+  ignore line: [gmake[1]: Entering directory '/src/build-cg/CMakeFiles/CMakeScratch/TryCompile-a16iEM']
+  ignore line: [Building C object CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/root/.local/bin/sh-elf-gcc -DTARGET_FXCG50  -v -m4-nofpu -mb -ffreestanding -nostdlib -Wa --dsp -o CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_AS_OPTIONS='--dsp']
+  ignore line: [COLLECT_GCC=/root/.local/bin/sh-elf-gcc]
+  ignore line: [Target: sh3eb-elf]
+  ignore line: [Configured with: ../gcc-14.1.0/configure --prefix=/root/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 14.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FXCG50' '-v' '-m4-nofpu' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ea432.dir/']
+  ignore line: [ /root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/cc1 -quiet -v -imultilib m4-nofpu -D TARGET_FXCG50 /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ea432.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m4-nofpu -mb -version -ffreestanding -o /tmp/ccEi8kP3.s]
+  ignore line: [GNU C17 (GCC) version 14.1.0 (sh3eb-elf)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include]
+  ignore line: [ /root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/include-fixed]
+  ignore line: [ /root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 6b364ee5cc4f6e176a5c21199d042b2f]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FXCG50' '-v' '-m4-nofpu' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ea432.dir/']
+  ignore line: [ /root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/as -big --isa=sh4a-nofpu --dsp -o CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj /tmp/ccEi8kP3.s]
+  ignore line: [COMPILER_PATH=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/]
+  ignore line: [LIBRARY_PATH=/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/m4-nofpu/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/m4-nofpu/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' 'TARGET_FXCG50' '-v' '-m4-nofpu' '-mb' '-ffreestanding' '-nostdlib' '-o' 'CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_ea432]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea432.dir/link.txt --verbose=1]
+  ignore line: [/root/.local/bin/sh-elf-gcc  -v -nostdlib -Wl --no-warn-rwx-segments CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj -o cmTC_ea432  -lgcc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/root/.local/bin/sh-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper]
+  ignore line: [Target: sh3eb-elf]
+  ignore line: [Configured with: ../gcc-14.1.0/configure --prefix=/root/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3 m4-nofpu --enable-languages=c c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 14.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/bin/]
+  ignore line: [LIBRARY_PATH=/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/:/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-nostdlib' '-o' 'cmTC_ea432' '-dumpdir' 'cmTC_ea432.']
+  link line: [ /root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2 -plugin /root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so -plugin-opt=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYoZz4F.res -m shelf -o cmTC_ea432 -L/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0 -L/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib --no-warn-rwx-segments CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj -lgcc]
+    arg [/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/root/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/14.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYoZz4F.res] ==> ignore
+    arg [-m] ==> ignore
+    arg [shelf] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ea432] ==> ignore
+    arg [-L/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0] ==> dir [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0]
+    arg [-L/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib] ==> dir [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib]
+    arg [--no-warn-rwx-segments] ==> ignore
+    arg [CMakeFiles/cmTC_ea432.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0] ==> [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0]
+  collapse library dir [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib] ==> [/root/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+  implicit libs: [gcc]
+  implicit objs: []
+  implicit dirs: [/root/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0;/root/.local/share/fxsdk/sysroot/sh3eb-elf/lib]
+  implicit fwks: []
+
+

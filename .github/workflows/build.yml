@@ -1,0 +1,25 @@
+name: Build Casio g3a Addin
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: manawyrm/fxsdk:latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Build .g3a addin
+        run: export PATH="$PATH:/root/.local/bin" && fxsdk build-cg
+
+      - name: Upload .g3a file
+        uses: actions/upload-artifact@v4
+        with:
+          name: Casio-Physics-Addin
+          path: "*.g3a"

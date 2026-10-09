@@ -1,0 +1,3 @@
+/src/build-cg/CMakeFiles/physics_app.dir
+/src/build-cg/CMakeFiles/edit_cache.dir
+/src/build-cg/CMakeFiles/rebuild_cache.dir
